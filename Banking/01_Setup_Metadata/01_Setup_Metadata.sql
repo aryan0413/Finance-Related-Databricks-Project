@@ -1,4 +1,10 @@
 -- Databricks notebook source
+-- DBTITLE 1,Project Header
+-- MAGIC %md
+-- MAGIC # NeoBank Banking Data Pipeline
+
+-- COMMAND ----------
+
 drop table if exists banking.metadata.tables;
 drop table if exists banking.metadata.table_parameters;
 drop table if exists banking.metadata.table_watermarks;
